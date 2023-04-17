@@ -139,11 +139,11 @@ export const t = (
   if (translation === undefined) {
     const errorMessage = `Can't find translation for ${path}`;
     // in production, don't blow up the app on a missing translation key
-    if (process.env.NODE_ENV === "production") {
-      console.warn(errorMessage);
-      return "";
-    }
-    throw new Error(errorMessage);
+    // if (process.env.NODE_ENV === "production") {
+    console.warn(errorMessage);
+    return "";
+    // }
+    // throw new Error(errorMessage);
   }
 
   if (replacement) {

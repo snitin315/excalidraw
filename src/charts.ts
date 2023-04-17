@@ -1,5 +1,5 @@
 import {
-  COLOR_PALETTE,
+  RADIX_PALETTE,
   DEFAULT_CHART_COLOR_INDEX,
   getAllColorsSpecificShade,
 } from "./colors";
@@ -175,7 +175,7 @@ const commonProps = {
   fontSize: DEFAULT_FONT_SIZE,
   opacity: 100,
   roughness: 1,
-  strokeColor: COLOR_PALETTE.black,
+  strokeColor: RADIX_PALETTE.black,
   roundness: null,
   strokeStyle: "solid",
   strokeWidth: 1,
@@ -342,7 +342,7 @@ const chartBaseElements = (
         y: y - chartHeight,
         width: chartWidth,
         height: chartHeight,
-        strokeColor: COLOR_PALETTE.black,
+        strokeColor: RADIX_PALETTE.black,
         fillStyle: "solid",
         opacity: 6,
       })

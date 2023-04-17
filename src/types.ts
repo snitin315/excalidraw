@@ -342,7 +342,7 @@ export interface ExcalidrawProps {
    */
   renderSidebar?: () => JSX.Element | null;
   children?: React.ReactNode;
-  colorPalette?: Partial<PaletteOptions> & Partial<TopPickOptions>;
+  // colorPalette?: Partial<PaletteOptions> & Partial<TopPickOptions>;
 }
 
 export type SceneData = {

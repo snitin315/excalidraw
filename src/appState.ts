@@ -1,5 +1,5 @@
 import oc from "open-color";
-import { COLOR_PALETTE } from "./colors";
+import { RADIX_PALETTE } from "./colors";
 import {
   DEFAULT_FONT_FAMILY,
   DEFAULT_FONT_SIZE,
@@ -24,7 +24,7 @@ export const getDefaultAppState = (): Omit<
     theme: THEME.LIGHT,
     collaborators: new Map(),
     currentChartType: "bar",
-    currentItemBackgroundColor: COLOR_PALETTE.transparent,
+    currentItemBackgroundColor: RADIX_PALETTE.transparent,
     currentItemEndArrowhead: "arrow",
     currentItemFillStyle: "hachure",
     currentItemFontFamily: DEFAULT_FONT_FAMILY,
@@ -32,7 +32,7 @@ export const getDefaultAppState = (): Omit<
     currentItemOpacity: 100,
     currentItemRoughness: 1,
     currentItemStartArrowhead: null,
-    currentItemStrokeColor: COLOR_PALETTE.black,
+    currentItemStrokeColor: RADIX_PALETTE.black,
     currentItemRoundness: "round",
     currentItemStrokeStyle: "solid",
     currentItemStrokeWidth: 1,

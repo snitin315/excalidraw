@@ -15,7 +15,7 @@ import {
   ColorPickerType,
 } from "./colorPickerUtils";
 import { useDevice, useExcalidrawContainer } from "../App";
-import { ColorTuple, COLOR_PALETTE, ColorPaletteCustom } from "../../colors";
+import { ColorTuple, RADIX_PALETTE, ColorPaletteCustom } from "../../colors";
 
 const isValidColor = (color: string) => {
   const style = new Option().style;
@@ -56,7 +56,7 @@ export const ColorPicker = ({
   onChange,
   label,
   elements,
-  palette = COLOR_PALETTE,
+  palette = RADIX_PALETTE,
   topPicks,
   updateData,
   appState,

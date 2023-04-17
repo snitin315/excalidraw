@@ -1,5 +1,5 @@
 import oc from "open-color";
-import { COLOR_PALETTE } from "./colors";
+import { RADIX_PALETTE } from "./colors";
 import {
   CURSOR_TYPE,
   DEFAULT_VERSION,
@@ -528,7 +528,7 @@ export const isTransparent = (color: string) => {
   return (
     isRGBTransparent ||
     isRRGGBBTransparent ||
-    color === COLOR_PALETTE.transparent
+    color === RADIX_PALETTE.transparent
   );
 };
 
